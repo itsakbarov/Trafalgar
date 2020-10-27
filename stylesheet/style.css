@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.site_header .main_view {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.site_logo {
+    width: 50%;
+    align-self: center;
+    height: 100%;
+}
+
+.site_nav {
+    width: 50%;
+}
+
+.site_nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.site_nav ul li {
+    list-style: none;
+}
+
+.site_nav li a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 10;
+    color: #1f153496;
+}
+
+.site_nav li a:hover {
+    cursor: pointer;
+    color: #1F1534;
+}
+
+.virtual_heathcare {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.heath_texture {
+    width: 50%;
+    /* background: yellowgreen; */
+}
+
+.virtual_heathcare h1 {
+    padding-top: 5%;
+    width: 427px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000000;
+    padding-top: 15%;
+    mix-blend-mode: normal;
+}
+
+.virtual_heathcare p {
+    width: 427px;
+    font-family: Mulish;
+    padding-top: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.virtual_heathcare .consult_link {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    font-family: Mulish;
+    color: #ffffff;
+    font-weight: 550;
+    position: relative;
+    top: 45px;
+    background: #458FF6;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.heath_illustration {
+    width: 700px;
+    height: 600px;
+    background-image: url(../images/illustration.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.signature {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.services .service-text h1 {
+    font-family: Mulish;
+    font-style: normal;
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-align: center;
+    line-height: 3;
+}
+
+hr.first {
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr.second {
+    width: 56px;
+    margin-left: 0;
+    margin-right: auto;
+    margin: 26px 0;
+}
+
+.service-text p {
+    display: block;
+    margin: 0 auto;
+    width: 952px;
+    text-align: center;
+    font-family: Mulish;
+    padding-top: 27px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+.service-list {
+    background-image: url('../images/Vector\(2\).png');
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.service-list .container {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.emergancy {
+    margin-top: 25px;
+}
+
+.service-list .item img {
+    position: relative;
+    right: 30%;
+    padding-top: 50px;
+}
+
+.service-list .container .item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    height: 354px;
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(204, 204, 204, 0.267);
+    border-radius: 20px;
+}
+
+.service-list .container .item p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    line-height: 28px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+}
+
+.service-list .container .item h3 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    font-size: 24px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.service-list a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    line-height: 60px;
+    padding: 10px 25px;
+    position: relative;
+    left: 44%;
+    border-radius: 20px;
+    border: 1px solid #458FF6;
+}
+
+.healthcare_img {
+    background-image: url(../images/trafalgar-illustration\ sec02\ 1.png);
+    width: 650px;
+    height: 477px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.healthcare {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 220px;
+}
+
+.healthcare-texture h1 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    mix-blend-mode: normal;
+    width: 481px;
+}
+
+.healthcare-texture p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    mix-blend-mode: normal;
+    width: 450px;
+}
+
+.healthcare-texture {
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.signature_2 {
+    position: absolute;
+    top: 1517px;
+    right: 15%;
+    z-index: -1;
+}
+
+.healthcare a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    line-height: 60px;
+    padding: 10px 25px;
+    position: relative;
+    top: 5%;
+    border-radius: 20px;
+    border: 1px solid #458FF6;
+}
+
+.element_image {
+    position: relative;
+}
+
+.element_image img {
+    position: absolute;
+    left: 165px;
+    top: 95%;
+}
+
+.download_sec {
+    width: 1200px;
+    display: flex;
+    /* position: relative; */
+    margin: 200px auto;
+}
+
+.download_sec .download_texture {
+    width: 50%;
+}
+
+.download_sec .download_img {
+    background-image: url('../images/trafalgar-illustration\ sec03\ 1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 665px;
+    height: 434px;
+}
+
+.download_sec .download_texture h2 {
+    width: 254px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.download_sec .download_texture p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+    width: 420px;
+    mix-blend-mode: normal;
+}
+
+hr.third {
+    width: 56px;
+    margin-left: 0;
+    margin-right: auto;
+    margin: 26px 0;
+}
+
+.download_sec .download_texture a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    text-decoration: none;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    line-height: 60px;
+    padding: 10px 25px;
+    position: relative;
+    top: 5%;
+    padding-right: 40px;
+    border-radius: 20px;
+    border: 1px solid #458FF6;
+}
+
+.download_sec .download_texture a::before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    background: url('../images/Vector.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 15px;
+    top: 14px;
+    margin: auto;
+}
+
+.customers {
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+
+.customers .customer_heading h2 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-align: center;
+    line-height: 3;
+}
+
+.comment_box {
+    display: flex;
+}
+
+.comment_box .customer {
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.customer img {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.customer h3 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 15px;
+    font-size: 22px;
+    align-self: center;
+    mix-blend-mode: normal;
+    color: #FFFFFF;
+}
+
+.customer p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+    mix-blend-mode: normal;
+}
+
+.comment {
+    width: 50%;
+}
+
+.comment blockquote {
+    width: 420px;
+    font-family: Mulish;
+    font-style: normal;
+    margin: 30px auto;
+    font-weight: normal;
+    position: relative;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    mix-blend-mode: normal;
+}
+
+hr.fourth {
+    width: 56px;
+    margin-left: 0;
+    margin-right: auto;
+    margin: auto;
+    color: white;
+}
+
+.bg_element {
+    position: relative;
+}
+
+.bg_element img {
+    position: absolute;
+    bottom: 295px;
+    right: -36px;
+}
+
+.customers .img {
+    position: absolute;
+    left: -75px;
+    bottom: 15px;
+}
+
+.scroll_navigation {
+    width: 80px;
+    margin: 40px auto;
+    justify-content: center;
+    display: flex;
+}
+
+.scroll_navigation span.dots {
+    height: 20px;
+    padding: 10px;
+    background-color: #5B9BF3;
+    border-radius: 10px;
+    display: block;
+    margin-left: 18px;
+}
+
+.scroll_navigation img:last-child {
+    margin-left: 80px;
+}
+
+.scroll_navigation img:first-child {
+    margin-right: 62px;
+}
+
+.scroll_navigation *:hover {
+    opacity: 0.8;
+}
+
+.checkout {
+    margin-top: 150px;
+}
+
+.checkout_txt {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+    text-align: center;
+}
+
+.checkout .grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.checkout #dot_image {
+    position: absolute;
+    top: 131px;
+    left: -46px;
+}
+
+.checkout {
+    width: 1200px;
+    position: relative;
+    margin: 150px auto;
+}
+.checkout-wrapper{
+    background-image: url(../images/last_vector_bg.png);
+    background-repeat: no-repeat;
+    background-position: right ;
+    
+}
+hr.fifth {
+    width: 56px;
+    margin-left: 0;
+    margin-right: auto;
+    margin: auto;
+    margin-bottom: 73px;
+    color: rgb(0, 0, 0);
+    margin-top: 27px;
+}
+
+.checkout .item {
+    width: 350px;
+}
+
+.checkout .item .item_txt h4 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 40px;
+    line-height: 32px;
+    margin-top: 21px;
+    margin-bottom: 12px;
+    color: #000000;
+    width: 251px;
+}
+
+.checkout .item .item_txt p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    width: 300px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.item img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.checkout .item a::after {
+    content: '';
+    background-image: url(../images/click.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12px;
+    left: 6px;
+    position: relative;
+    display: inline-block;
+    height: 9px;
+}
+
+.checkout .item a {
+    text-decoration: none;
+    font-family: Mulish;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 10px 20px;
+    color: #4089ED;
+    mix-blend-mode: normal;
+    left: -17px;
+    position: relative;
+}
+
+.checkout a#last {
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: #458FF6;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+    border: 1px solid #458FF6;
+    position: relative;
+    top: 69px;
+    left: 46%;
+    width: 200px;
+    padding: 10px 62px;
+}
+
+.site_foot {
+    width: 100%;
+    height: 432px;
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    overflow: hidden;
+}
+
+.foot_logo {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.foot_logo h4 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 130px;
+    font-size: 24px;
+    line-height: 3;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.foot_logo p.licence {
+    margin-top: 31px;
+}
+
+.foot_logo p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.first_column {
+    width: 35%;
+}
+
+.second_column {
+    margin-top: 130px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+
+.second_column li:first-child {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 60px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    list-style: none;
+}
+
+.second_column ul li {
+    list-style: none;
+}
+
+.second_column ul li a {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-decoration: none;
+    mix-blend-mode: normal;
+}
